@@ -1,0 +1,719 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 1,
+        "nama": "Rumah Megah"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59475701083522,
+          -6.993353882649487
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 2,
+        "nama": "Komp. Graha Rancamanyar"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59633621261571,
+          -6.993934519582112
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 3,
+        "nama": "Kantor Desa Rancamanyar"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5968580880691,
+          -6.996449647044102
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 4,
+        "nama": "SDN Ranca panjang"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5965860402195,
+          -6.996433282329264
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 5,
+        "nama": "SMPN 3 Baleenda"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59703591295761,
+          -6.996512166885566
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 6,
+        "nama": "Pom Bensin Rancamanyar"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59902646441247,
+          -6.997257668309345
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 7,
+        "nama": "Masjid Graha"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59351135248642,
+          -6.992985359471277
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 8,
+        "nama": "Puskesmas Rancamanyar"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59573557255487,
+          -6.986881216778599
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 9,
+        "nama": "Pasar Rancamanyar"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59728783705191,
+          -6.98485802430443
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 10,
+        "nama": "Ruby Regency"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59875356448026,
+          -6.984380360948549
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 11,
+        "nama": "Rancamanyar Regency"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59417200533039,
+          -6.98350467216423
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 12,
+        "nama": "Cluster Rancamanyar"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59508303859246,
+          -6.983707121632918
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 13,
+        "nama": "Rancamanyar Regency 2"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59209424041177,
+          -6.982020172774597
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 14,
+        "nama": "Pasar Segar Rancamanyar"
+      },
+      "geometry": {
+        "coordinates": [
+          107.596153874278,
+          -6.992311335849621
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 15,
+        "nama": "Indomaret Rancamanyar"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59582671723018,
+          -6.986529877864598
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 16,
+        "nama": "SDN Citarum"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59330989542605,
+          -6.985159631083263
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 17,
+        "nama": "Lapangan terbang lanud sulaiman"
+      },
+      "geometry": {
+        "coordinates": [
+          107.57269240715999,
+          -6.982926047922206
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 18,
+        "nama": "RS Lanud Sulaiman"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5641722257754,
+          -6.983597236511301
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 19,
+        "nama": "Lapang Golf"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58265515893845,
+          -6.984044695036729
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 20,
+        "nama": "Kolam Big"
+      },
+      "geometry": {
+        "coordinates": [
+          107.585658325579,
+          -6.9805964138981835
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 21,
+        "nama": "SMPN 1 Margahayu"
+      },
+      "geometry": {
+        "coordinates": [
+          107.56813953821722,
+          -6.976638710554752
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 22,
+        "nama": "SMAN 1 Margahayu"
+      },
+      "geometry": {
+        "coordinates": [
+          107.56728061242961,
+          -6.976653580893867
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 23,
+        "nama": "SD Mathlaul Anwar"
+      },
+      "geometry": {
+        "coordinates": [
+          107.56781993792532,
+          -6.976187643392194
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 24,
+        "nama": "SMA Marhas"
+      },
+      "geometry": {
+        "coordinates": [
+          107.57045161631606,
+          -6.9759422216470455
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 25,
+        "nama": "SD Marhas"
+      },
+      "geometry": {
+        "coordinates": [
+          107.57200768686494,
+          -6.978860016760635
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 26,
+        "nama": "SD Daarul Qalam"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58743642736772,
+          -6.978415006051364
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 27,
+        "nama": "SDN lupa namanya"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58789290666203,
+          -6.978121252001202
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 28,
+        "nama": "Cisago"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58727853314917,
+          -6.979743902227128
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 29,
+        "nama": "Lapang tennis"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58419141278739,
+          -6.981236597826154
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 30,
+        "nama": "SDN Sayuran"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59153748757103,
+          -6.979608790779764
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 31,
+        "nama": "Cangkuang"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59048373734129,
+          -6.972942459495826
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 32,
+        "nama": "SDN Cangkuang 6"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58957304169667,
+          -6.97214517076722
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 33,
+        "nama": "SDK Kalam Kudus"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5909880374673,
+          -6.967970979628973
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 34,
+        "nama": "SMK Assalaam"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5929441595274,
+          -6.966986842265342
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 35,
+        "nama": "SMPN 38 Bandung"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59138777091499,
+          -6.957567815178777
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 36,
+        "nama": "Parahita"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58876501451527,
+          -6.947375362781813
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 37,
+        "nama": "Ponpes Sirna Miskin"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5870368854795,
+          -6.9502333628796436
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 38,
+        "nama": "Santosa Hospital"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58643620313597,
+          -6.952869489062564
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 39,
+        "nama": "Miko mall"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58115324247524,
+          -6.960158694893337
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 40,
+        "nama": "Yogya"
+      },
+      "geometry": {
+        "coordinates": [
+          107.58023641152823,
+          -6.959175394976256
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 41,
+        "nama": "SDN Margahayu"
+      },
+      "geometry": {
+        "coordinates": [
+          107.57750727753756,
+          -6.963029169445605
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 42,
+        "nama": "Pasar Sayati"
+      },
+      "geometry": {
+        "coordinates": [
+          107.5757263222904,
+          -6.965854729351619
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 43,
+        "nama": "Klinik Kasih Jaya"
+      },
+      "geometry": {
+        "coordinates": [
+          107.57355543522249,
+          -6.966524200839217
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 44,
+        "nama": "Pasar Segar TKI"
+      },
+      "geometry": {
+        "coordinates": [
+          107.56265969651207,
+          -6.963098399180936
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 45,
+        "nama": "Talenta School"
+      },
+      "geometry": {
+        "coordinates": [
+          107.55206196170542,
+          -6.969266699064363
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 46,
+        "nama": "SMAN 1 Margaasih"
+      },
+      "geometry": {
+        "coordinates": [
+          107.54881616939298,
+          -6.971233254524634
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 47,
+        "nama": "RS Unggul Karsa Medika"
+      },
+      "geometry": {
+        "coordinates": [
+          107.54892155225866,
+          -6.970354581828076
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 48,
+        "nama": "SDN Lupa nama lagi"
+      },
+      "geometry": {
+        "coordinates": [
+          107.59932524965222,
+          -6.99988924493978
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 49,
+        "nama": "SD Lupa Nama juga"
+      },
+      "geometry": {
+        "coordinates": [
+          107.60244775710726,
+          -6.99835790072332
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 50,
+        "nama": "Lupa juga namanya"
+      },
+      "geometry": {
+        "coordinates": [
+          107.60247415048525,
+          -6.99851508111702
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "no": 51,
+        "nama": "Lupa apa ini"
+      },
+      "geometry": {
+        "coordinates": [
+          107.60150815289478,
+          -6.999248588922754
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}
