@@ -5,7 +5,7 @@
         "type": "Feature",
         "properties": {
           "No": 1,
-          "Nama Jalan": "Aster"
+          "NamaJalan": "Aster"
         },
         "geometry": {
           "coordinates": [
@@ -37,7 +37,7 @@
         "type": "Feature",
         "properties": {
           "No": 2,
-          "Nama Jalan": "Puspa"
+          "NamaJalan": "Puspa"
         },
         "geometry": {
           "coordinates": [
@@ -62,7 +62,7 @@
         "type": "Feature",
         "properties": {
           "No": 3,
-          "Nama Jalan": "Rancamanyar"
+          "NamaJalan": "Rancamanyar"
         },
         "geometry": {
           "coordinates": [
@@ -103,7 +103,7 @@
         "type": "Feature",
         "properties": {
           "No": 4,
-          "Nama Jalan": "Melati"
+          "NamaJalan": "Melati"
         },
         "geometry": {
           "coordinates": [
@@ -156,7 +156,7 @@
         "type": "Feature",
         "properties": {
           "No": 5,
-          "Nama Jalan": "Citarum"
+          "NamaJalan": "Citarum"
         },
         "geometry": {
           "coordinates": [
@@ -204,7 +204,7 @@
         "type": "Feature",
         "properties": {
           "No": 6,
-          "Nama Jalan": "Citarum Kecil"
+          "NamaJalan": "Citarum Kecil"
         },
         "geometry": {
           "coordinates": [
@@ -232,7 +232,7 @@
         "type": "Feature",
         "properties": {
           "No": 7,
-          "Nama Jalan": "Citarum Besar"
+          "NamaJalan": "Citarum Besar"
         },
         "geometry": {
           "coordinates": [
@@ -264,7 +264,7 @@
         "type": "Feature",
         "properties": {
           "No": 8,
-          "Nama Jalan": "Jalan setapak"
+          "NamaJalan": "Jalan setapak"
         },
         "geometry": {
           "coordinates": [
@@ -292,7 +292,7 @@
         "type": "Feature",
         "properties": {
           "No": 9,
-          "Nama Jalan": "Jalan Setapak 2"
+          "NamaJalan": "Jalan Setapak 2"
         },
         "geometry": {
           "coordinates": [
@@ -328,7 +328,7 @@
         "type": "Feature",
         "properties": {
           "No": 10,
-          "Nama Jalan": "Jalan Setapak 3"
+          "NamaJalan": "Jalan Setapak 3"
         },
         "geometry": {
           "coordinates": [
@@ -368,7 +368,7 @@
         "type": "Feature",
         "properties": {
           "No": 11,
-          "Nama Jalan": "Rancamanyar"
+          "NamaJalan": "Rancamanyar"
         },
         "geometry": {
           "coordinates": [
@@ -424,7 +424,7 @@
         "type": "Feature",
         "properties": {
           "No": 12,
-          "Nama Jalan": "Jalan setapak 4"
+          "NamaJalan": "Jalan setapak 4"
         },
         "geometry": {
           "coordinates": [
@@ -464,7 +464,7 @@
         "type": "Feature",
         "properties": {
           "No": 13,
-          "Nama Jalan": "Jalan Setapak 5"
+          "NamaJalan": "Jalan Setapak 5"
         },
         "geometry": {
           "coordinates": [
@@ -504,7 +504,7 @@
         "type": "Feature",
         "properties": {
           "No": 14,
-          "Nama Jalan": "Jalan Setapak 6"
+          "NamaJalan": "Jalan Setapak 6"
         },
         "geometry": {
           "coordinates": [
@@ -536,7 +536,7 @@
         "type": "Feature",
         "properties": {
           "No": 15,
-          "Nama Jalan": "Jalan Setapak 7"
+          "NamaJalan": "Jalan Setapak 7"
         },
         "geometry": {
           "coordinates": [
@@ -564,7 +564,7 @@
         "type": "Feature",
         "properties": {
           "No": 18,
-          "Nama Jalan": "Jalan Setapak 8"
+          "NamaJalan": "Jalan Setapak 8"
         },
         "geometry": {
           "coordinates": [
@@ -592,7 +592,7 @@
         "type": "Feature",
         "properties": {
           "No": 17,
-          "Nama Jalan": "Jalan Setapak 9"
+          "NamaJalan": "Jalan Setapak 9"
         },
         "geometry": {
           "coordinates": [
@@ -620,7 +620,7 @@
         "type": "Feature",
         "properties": {
           "No": 18,
-          "Nama Jalan": "Jalan Setapak 10"
+          "NamaJalan": "Jalan Setapak 10"
         },
         "geometry": {
           "coordinates": [
@@ -652,7 +652,7 @@
         "type": "Feature",
         "properties": {
           "No": 19,
-          "Nama Jalan": "Jalan Setapak 11"
+          "NamaJalan": "Jalan Setapak 11"
         },
         "geometry": {
           "coordinates": [
@@ -692,7 +692,7 @@
         "type": "Feature",
         "properties": {
           "No": 20,
-          "Nama Jalan": "Jalan Setapak 12"
+          "NamaJalan": "Jalan Setapak 12"
         },
         "geometry": {
           "coordinates": [
@@ -732,7 +732,7 @@
         "type": "Feature",
         "properties": {
           "No": 21,
-          "Nama Jalan": "Jalan Setapak 13"
+          "NamaJalan": "Jalan Setapak 13"
         },
         "geometry": {
           "coordinates": [
@@ -768,7 +768,7 @@
         "type": "Feature",
         "properties": {
           "No": 22,
-          "Nama Jalan": "Jalan Setapak 14"
+          "NamaJalan": "Jalan Setapak 14"
         },
         "geometry": {
           "coordinates": [
@@ -812,7 +812,7 @@
         "type": "Feature",
         "properties": {
           "No": 23,
-          "Nama Jalan": "Jalan Setapak 15"
+          "NamaJalan": "Jalan Setapak 15"
         },
         "geometry": {
           "coordinates": [
@@ -860,7 +860,7 @@
         "type": "Feature",
         "properties": {
           "No": 24,
-          "Nama Jalan": "Jalan Setapak 16"
+          "NamaJalan": "Jalan Setapak 16"
         },
         "geometry": {
           "coordinates": [
@@ -896,7 +896,7 @@
         "type": "Feature",
         "properties": {
           "No": 35,
-          "Nama Jalan": "Jalan Setapak 17"
+          "NamaJalan": "Jalan Setapak 17"
         },
         "geometry": {
           "coordinates": [
@@ -940,7 +940,7 @@
         "type": "Feature",
         "properties": {
           "No": 26,
-          "Nama Jalan": "Jalan Setapak 18"
+          "NamaJalan": "Jalan Setapak 18"
         },
         "geometry": {
           "coordinates": [
@@ -976,7 +976,7 @@
         "type": "Feature",
         "properties": {
           "No": 27,
-          "Nama Jalan": "Jalan Setapak 19"
+          "NamaJalan": "Jalan Setapak 19"
         },
         "geometry": {
           "coordinates": [
@@ -1008,7 +1008,7 @@
         "type": "Feature",
         "properties": {
           "No": 28,
-          "Nama Jalan": "Jalan Setapak 20"
+          "NamaJalan": "Jalan Setapak 20"
         },
         "geometry": {
           "coordinates": [
@@ -1048,7 +1048,7 @@
         "type": "Feature",
         "properties": {
           "No": 29,
-          "Nama Jalan": "Jalan Setapak 21"
+          "NamaJalan": "Jalan Setapak 21"
         },
         "geometry": {
           "coordinates": [
@@ -1076,7 +1076,7 @@
         "type": "Feature",
         "properties": {
           "No": 30,
-          "Nama Jalan": "Jalan Setapak 22"
+          "NamaJalan": "Jalan Setapak 22"
         },
         "geometry": {
           "coordinates": [
@@ -1108,7 +1108,7 @@
         "type": "Feature",
         "properties": {
           "No": 31,
-          "Nama Jalan": "Jalan Setapak 23"
+          "NamaJalan": "Jalan Setapak 23"
         },
         "geometry": {
           "coordinates": [
@@ -1128,7 +1128,7 @@
         "type": "Feature",
         "properties": {
           "No": 32,
-          "Nama Jalan": "Jalan Setapak 24"
+          "NamaJalan": "Jalan Setapak 24"
         },
         "geometry": {
           "coordinates": [
@@ -1160,7 +1160,7 @@
         "type": "Feature",
         "properties": {
           "No": 33,
-          "Nama Jalan": "Jalan Setapak 25"
+          "NamaJalan": "Jalan Setapak 25"
         },
         "geometry": {
           "coordinates": [
@@ -1196,7 +1196,7 @@
         "type": "Feature",
         "properties": {
           "No": 34,
-          "Nama Jalan": "Jalan Setapak 26"
+          "NamaJalan": "Jalan Setapak 26"
         },
         "geometry": {
           "coordinates": [
@@ -1224,7 +1224,7 @@
         "type": "Feature",
         "properties": {
           "No": 35,
-          "Nama Jalan": "Jalan Setapak 27"
+          "NamaJalan": "Jalan Setapak 27"
         },
         "geometry": {
           "coordinates": [
@@ -1252,7 +1252,7 @@
         "type": "Feature",
         "properties": {
           "No": 36,
-          "Nama Jalan": "Jalan Setapak 28"
+          "NamaJalan": "Jalan Setapak 28"
         },
         "geometry": {
           "coordinates": [
@@ -1288,7 +1288,7 @@
         "type": "Feature",
         "properties": {
           "No": 37,
-          "Nama Jalan": "Jalan Setapak 29"
+          "NamaJalan": "Jalan Setapak 29"
         },
         "geometry": {
           "coordinates": [
@@ -1320,7 +1320,7 @@
         "type": "Feature",
         "properties": {
           "No": 38,
-          "Nama Jalan": "Jalan Setapak 30"
+          "NamaJalan": "Jalan Setapak 30"
         },
         "geometry": {
           "coordinates": [
@@ -1360,7 +1360,7 @@
         "type": "Feature",
         "properties": {
           "No": 39,
-          "Nama Jalan": "Jalan Setapak 31"
+          "NamaJalan": "Jalan Setapak 31"
         },
         "geometry": {
           "coordinates": [
@@ -1392,7 +1392,7 @@
         "type": "Feature",
         "properties": {
           "No": 40,
-          "Nama Jalan": "Jalan Setapak 32"
+          "NamaJalan": "Jalan Setapak 32"
         },
         "geometry": {
           "coordinates": [
@@ -1436,7 +1436,7 @@
         "type": "Feature",
         "properties": {
           "No": 41,
-          "Nama Jalan": "Jalan Setapak 33"
+          "NamaJalan": "Jalan Setapak 33"
         },
         "geometry": {
           "coordinates": [
@@ -1480,7 +1480,7 @@
         "type": "Feature",
         "properties": {
           "No": 42,
-          "Nama Jalan": "Jalan Setapak 34"
+          "NamaJalan": "Jalan Setapak 34"
         },
         "geometry": {
           "coordinates": [
@@ -1512,7 +1512,7 @@
         "type": "Feature",
         "properties": {
           "No": 43,
-          "Nama Jalan": "Jalan Setapak 35"
+          "NamaJalan": "Jalan Setapak 35"
         },
         "geometry": {
           "coordinates": [
@@ -1548,7 +1548,7 @@
         "type": "Feature",
         "properties": {
           "No": 44,
-          "Nama Jalan": "Jalan Setapak 36"
+          "NamaJalan": "Jalan Setapak 36"
         },
         "geometry": {
           "coordinates": [
@@ -1584,7 +1584,7 @@
         "type": "Feature",
         "properties": {
           "No": 45,
-          "Nama Jalan": "Jalan Setapak 37"
+          "NamaJalan": "Jalan Setapak 37"
         },
         "geometry": {
           "coordinates": [
@@ -1616,7 +1616,7 @@
         "type": "Feature",
         "properties": {
           "No": 46,
-          "Nama Jalan": "Jalan Setapak 38"
+          "NamaJalan": "Jalan Setapak 38"
         },
         "geometry": {
           "coordinates": [
@@ -1648,7 +1648,7 @@
         "type": "Feature",
         "properties": {
           "No": 47,
-          "Nama Jalan": "Jalan Setapak 39"
+          "NamaJalan": "Jalan Setapak 39"
         },
         "geometry": {
           "coordinates": [
@@ -1684,7 +1684,7 @@
         "type": "Feature",
         "properties": {
           "No": 48,
-          "Nama Jalan": "Jalan Setapak 40"
+          "NamaJalan": "Jalan Setapak 40"
         },
         "geometry": {
           "coordinates": [
@@ -1712,7 +1712,7 @@
         "type": "Feature",
         "properties": {
           "No": 49,
-          "Nama Jalan": "Jalan Setapak 41"
+          "NamaJalan": "Jalan Setapak 41"
         },
         "geometry": {
           "coordinates": [
@@ -1740,7 +1740,7 @@
         "type": "Feature",
         "properties": {
           "No": 50,
-          "Nama Jalan": "Jalan Setapak 42"
+          "NamaJalan": "Jalan Setapak 42"
         },
         "geometry": {
           "coordinates": [
@@ -1772,7 +1772,7 @@
         "type": "Feature",
         "properties": {
           "No": 51,
-          "Nama Jalan": "Jalan Setapak 43"
+          "NamaJalan": "Jalan Setapak 43"
         },
         "geometry": {
           "coordinates": [
@@ -1808,7 +1808,7 @@
         "type": "Feature",
         "properties": {
           "No": 52,
-          "Nama Jalan": "Jalan Setapak 44"
+          "NamaJalan": "Jalan Setapak 44"
         },
         "geometry": {
           "coordinates": [
@@ -1844,7 +1844,7 @@
         "type": "Feature",
         "properties": {
           "No": 53,
-          "Nama Jalan": "Jalan Setapak 45"
+          "NamaJalan": "Jalan Setapak 45"
         },
         "geometry": {
           "coordinates": [

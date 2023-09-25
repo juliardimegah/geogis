@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     const nameCell = row.insertCell(0);
                     const coordinatesCell = row.insertCell(1);
                     const typeCell = row.insertCell(2);
-                    nameCell.innerText = feature.properties.name;
+                    nameCell.innerText = feature.properties.nama;
                     coordinatesCell.innerText = JSON.stringify(feature.geometry.coordinates);
                     typeCell.innerText = feature.geometry.type;
                     
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
     const pointTable = document.getElementById("polygonTable").getElementsByTagName('tbody')[0];
 
-    fetch("polygon.json") // Ganti "data.json" dengan nama file JSON Anda
+    fetch("poligon.json") // Ganti "data.json" dengan nama file JSON Anda
         .then(response => response.json())
         .then(data => {
             data.features.forEach(feature => {
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
     const pointTable = document.getElementById("polylineTable").getElementsByTagName('tbody')[0];
 
-    fetch("polyline.json") // Ganti "data.json" dengan nama file JSON Anda
+    fetch("poliline.json") // Ganti "data.json" dengan nama file JSON Anda
         .then(response => response.json())
         .then(data => {
             data.features.forEach(feature => {
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     const nameCell = row.insertCell(0);
                     const coordinatesCell = row.insertCell(1);
                     const typeCell = row.insertCell(2);
-                    nameCell.innerText = feature.properties.name;
+                    nameCell.innerText = feature.properties.NamaJalan;
                     coordinatesCell.innerText = JSON.stringify(feature.geometry.coordinates);
                     typeCell.innerText = feature.geometry.type;
                     
