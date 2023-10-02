@@ -1,166 +1,142 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const map = new ol.Map({
-        target: 'map',
-        layers: [
-            new ol.layer.Tile({
-                source: new ol.source.OSM()
-            })
-        ],
-        view: new ol.View({
-            center: ol.proj.fromLonLat([107.59346907209243,
-                -6.9928984337098825]),
-            zoom: 15
-        })
-    });
-
-    // Mendownload data waypoint, line string, dan polyline
-    const waypointSource = new ol.source.Vector({
-        url: 'https://raw.githubusercontent.com/juliardimegah/geogis.github.io/main/point.json',
-        format: new ol.format.GeoJSON()
-    });
-
-    const lineStringSource = new ol.source.Vector({
-        url: './poligon.json',
-        format: new ol.format.GeoJSON()
-    });
-
-    const polylineSource = new ol.source.Vector({
-        url: 'https://raw.githubusercontent.com/juliardimegah/geogis.github.io/main/poliline.json',
-        format: new ol.format.GeoJSON()
-    });
-
-    // Membuat layer untuk waypoint, line string, dan polyline
-    const waypointLayer = new ol.layer.Vector({
-        source: waypointSource,
-        style: new ol.style.Style({
-            image: new ol.style.Circle({
-                radius: 5,
-                fill: new ol.style.Fill({
-                    color: 'blue'
-                })
-            })
-        })
-    });
-
-    const lineStringLayer = new ol.layer.Vector({
-        source: lineStringSource,
-        style: new ol.style.Style({
-            stroke: new ol.style.Stroke({
-                color: 'green',
-                width: 2
-            })
-        })
-    });
-
-    const polylineLayer = new ol.layer.Vector({
-        source: polylineSource,
-        style: new ol.style.Style({
-            stroke: new ol.style.Stroke({
-                color: 'black',
-                width: 5
-                
-            })
-        })
-    });
-
-    // Menambahkan layer ke peta
-    map.addLayer(waypointLayer);
-    map.addLayer(lineStringLayer);
-    map.addLayer(polylineLayer);
-
-    // Mendapatkan koordinat dari GeoJSON
-    const getCoordinates = (source) => {
-        const features = source.getFeatures();
-        const coordinates = features[0].getGeometry().getCoordinates();
-        return coordinates;
-    };
-
-    // Menampilkan koordinat di dalam tabel
-    waypointSource.once('change', () => {
-        const waypointCoords = getCoordinates(waypointSource);
-        document.getElementById('featureName').textContent = 'Waypoint';
-        document.getElementById('featureType').textContent = 'Point';
-        document.getElementById('featureCoords').textContent = waypointCoords.toString();
-    });
-
-    lineStringSource.once('change', () => {
-        const lineStringCoords = getCoordinates(lineStringSource);
-        document.getElementById('featureName').textContent = 'Line String';
-        document.getElementById('featureType').textContent = 'Line String';
-        document.getElementById('featureCoords').textContent = lineStringCoords.toString();
-    });
-
-    polylineSource.once('change', () => {
-        const polylineCoords = getCoordinates(polylineSource);
-        document.getElementById('featureName').textContent = 'Polyline';
-        document.getElementById('featureType').textContent = 'Polyline';
-        document.getElementById('featureCoords').textContent = polylineCoords.toString();
-    });
+const map = new ol.Map({
+    target: 'map',
+    view: new ol.View({
+        center: ol.proj.fromLonLat([107.59633621261571,
+            -6.993934519582112]),
+        zoom: 15.6
+    })
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-    const pointTable = document.getElementById("pointTable").getElementsByTagName('tbody')[0];
+const tileLayer = new ol.layer.Tile({
+    source: new ol.source.OSM()
+});
+map.addLayer(tileLayer);
 
-    fetch("https://raw.githubusercontent.com/juliardimegah/geogis.github.io/main/point.json") // Ganti "data.json" dengan nama file JSON Anda
+function addGeoJSONToMapAndTable(geoJSONUrl, map, table) {
+    fetch(geoJSONUrl)
         .then(response => response.json())
         .then(data => {
+            const vectorSource = new ol.source.Vector({
+                features: (new ol.format.GeoJSON()).readFeatures(data)
+            });
+            const vectorLayer = new ol.layer.Vector({
+                source: vectorSource
+            });
+            map.addLayer(vectorLayer);
+
+            let rowNum = 1;
+
+            const tableBody = document.getElementById('geojson-table');
+
             data.features.forEach(feature => {
+                const row = tableBody.insertRow();
+                const numCell = row.insertCell(0);
+                const nameCell = row.insertCell(1);
+                const coordCell = row.insertCell(2);
+                const typeCell = row.insertCell(3);
+                numCell.innerHTML = rowNum;
+                nameCell.innerHTML = feature.properties.name;
+
+                const coordinates = feature.geometry.coordinates;
+                let coordinateString = "";
+
                 if (feature.geometry.type === "Point") {
-                    const row = pointTable.insertRow();
-                    const nameCell = row.insertCell(0);
-                    const coordinatesCell = row.insertCell(1);
-                    const typeCell = row.insertCell(2);
-                    nameCell.innerText = feature.properties.nama;
-                    coordinatesCell.innerText = JSON.stringify(feature.geometry.coordinates);
-                    typeCell.innerText = feature.geometry.type;
+                    const lat = coordinates[1];
+                    const long = coordinates[0];
+                    coordinateString = `${lat}, ${long}`;
+
+                    const iconUrl = feature.properties.icon;
+                    const iconUrl2 = feature.properties.icon2;
+
+                    const marker = new ol.Feature({
+                        geometry: new ol.geom.Point(ol.proj.fromLonLat([long, lat]))
+                    });
+
+                    if (iconUrl || iconUrl2) {
+                        const markerStyle = new ol.style.Style({
+                            image: new ol.style.Icon({
+                                src: iconUrl || iconUrl2,
+                                scale: 0.1
+                            }),
+                        });
+                        marker.setStyle(markerStyle);
+                    }
+
+                    vectorSource.addFeature(marker);
+                } else if (feature.geometry.type === "Polygon") {
+                    const coordinates = feature.geometry.coordinates;
+                    const polygonCoordinates = coordinates.map(linearRingCoords => {
+                        return linearRingCoords.map(coordinate => {
+                            return ol.proj.fromLonLat(coordinate);
+                        });
+                    });
+
+                    const polygon = new ol.geom.Polygon(polygonCoordinates);
+
+                    const featureGeom = new ol.Feature({
+                        geometry: polygon
+                    });
+                    vectorSource.addFeature(featureGeom);
                     
+                } else if (feature.geometry.type === "LineString") {
+                    const coordinates = feature.geometry.coordinates;
+                    const lineStringCoords = coordinates.map(coordinate => {
+                        return ol.proj.fromLonLat(coordinate);
+                    });
+
+                    if (feature.properties.curve) {
+                        const curve = feature.properties.curve;
+                        const curveLineStringCoords = [];
+
+                        for (let i = 0; i < lineStringCoords.length - 1; i++) {
+                            curveLineStringCoords.push(lineStringCoords[i]);
+
+                            for (let t = 0.1; t <= 0.9; t += 0.1) {
+                                const x = (1 - t) * (1 - t) * lineStringCoords[i][0] +
+                                          2 * (1 - t) * t * curve[i][0] +
+                                          t * t * lineStringCoords[i + 1][0];
+
+                                const y = (1 - t) * (1 - t) * lineStringCoords[i][1] +
+                                          2 * (1 - t) * t * curve[i][1] +
+                                          t * t * lineStringCoords[i + 1][1];
+
+                                curveLineStringCoords.push([x, y]);
+                            }
+                        }
+
+                        curveLineStringCoords.push(lineStringCoords[lineStringCoords.length - 1]);
+
+                        const curveLineString = new ol.geom.LineString(curveLineStringCoords);
+                        const featureGeom = new ol.Feature({
+                            geometry: curveLineString
+                        });
+                        vectorSource.addFeature(featureGeom);
+                    } else {
+                        const lineString = new ol.geom.LineString(lineStringCoords);
+                        const featureGeom = new ol.Feature({
+                            geometry: lineString
+                        });
+                        vectorSource.addFeature(featureGeom);
+                    }
                 }
+
+                coordinates.forEach(coordinate => {
+                    const lat = coordinate[1];
+                    const long = coordinate[0];
+                    coordinateString += `${lat}, ${long}<br>`;
+                });
+
+                coordCell.innerHTML = coordinateString;
+                typeCell.innerHTML = feature.geometry.type;
+                rowNum++;
             });
         })
-        .catch(error => console.error("Terjadi kesalahan:", error));
-});
+        .catch(error => {
+            console.error('Error fetching GeoJSON:', error);
+        });
+}
 
-document.addEventListener("DOMContentLoaded", () => {
-    const pointTable = document.getElementById("polygonTable").getElementsByTagName('tbody')[0];
-
-    fetch("./poligon.json") // Ganti "data.json" dengan nama file JSON Anda
-        .then(response => response.json())
-        .then(data => {
-            data.features.forEach(feature => {
-                if (feature.geometry.type === "Polygon") {
-                    const row = pointTable.insertRow();
-                    const nameCell = row.insertCell(0);
-                    const coordinatesCell = row.insertCell(1);
-                    const typeCell = row.insertCell(2);
-                    nameCell.innerText = feature.properties.name;
-                    coordinatesCell.innerText = JSON.stringify(feature.geometry.coordinates);
-                    typeCell.innerText = feature.geometry.type;
-                    
-                }
-            });
-        })
-        .catch(error => console.error("Terjadi kesalahan:", error));
-});
-
-document.addEventListener("DOMContentLoaded", () => {
-    const pointTable = document.getElementById("polylineTable").getElementsByTagName('tbody')[0];
-
-    fetch("https://raw.githubusercontent.com/juliardimegah/geogis.github.io/main/poliline.json") // Ganti "data.json" dengan nama file JSON Anda
-        .then(response => response.json())
-        .then(data => {
-            data.features.forEach(feature => {
-                if (feature.geometry.type === "LineString") {
-                    const row = pointTable.insertRow();
-                    const nameCell = row.insertCell(0);
-                    const coordinatesCell = row.insertCell(1);
-                    const typeCell = row.insertCell(2);
-                    nameCell.innerText = feature.properties.NamaJalan;
-                    coordinatesCell.innerText = JSON.stringify(feature.geometry.coordinates);
-                    typeCell.innerText = feature.geometry.type;
-                    
-                }
-            });
-        })
-        .catch(error => console.error("Terjadi kesalahan:", error));
-});
-
+// Call the function for each GeoJSON URL
+addGeoJSONToMapAndTable("https://raw.githubusercontent.com/juliardimegah/geogis/main/poliline.json", map, document.querySelector('table'));
+addGeoJSONToMapAndTable("https://raw.githubusercontent.com/juliardimegah/geogis/main/poligon.json", map, document.querySelector('table'));
+addGeoJSONToMapAndTable("https://raw.githubusercontent.com/juliardimegah/geogis/main/point.json", map, document.querySelector('table'));

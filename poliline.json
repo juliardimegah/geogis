@@ -5,7 +5,7 @@
         "type": "Feature",
         "properties": {
           "No": 1,
-          "NamaJalan": "Aster"
+          "name": "Aster"
         },
         "geometry": {
           "coordinates": [
@@ -37,7 +37,7 @@
         "type": "Feature",
         "properties": {
           "No": 2,
-          "NamaJalan": "Puspa"
+          "name": "Puspa"
         },
         "geometry": {
           "coordinates": [
@@ -62,7 +62,7 @@
         "type": "Feature",
         "properties": {
           "No": 3,
-          "NamaJalan": "Rancamanyar"
+          "name": "Rancamanyar"
         },
         "geometry": {
           "coordinates": [
@@ -103,7 +103,7 @@
         "type": "Feature",
         "properties": {
           "No": 4,
-          "NamaJalan": "Melati"
+          "name": "Melati"
         },
         "geometry": {
           "coordinates": [
@@ -156,7 +156,7 @@
         "type": "Feature",
         "properties": {
           "No": 5,
-          "NamaJalan": "Citarum"
+          "name": "Citarum"
         },
         "geometry": {
           "coordinates": [
@@ -204,7 +204,7 @@
         "type": "Feature",
         "properties": {
           "No": 6,
-          "NamaJalan": "Citarum Kecil"
+          "name": "Citarum Kecil"
         },
         "geometry": {
           "coordinates": [
@@ -232,7 +232,7 @@
         "type": "Feature",
         "properties": {
           "No": 7,
-          "NamaJalan": "Citarum Besar"
+          "name": "Citarum Besar"
         },
         "geometry": {
           "coordinates": [
@@ -264,7 +264,7 @@
         "type": "Feature",
         "properties": {
           "No": 8,
-          "NamaJalan": "Jalan setapak"
+          "name": "Jalan setapak"
         },
         "geometry": {
           "coordinates": [
@@ -292,7 +292,7 @@
         "type": "Feature",
         "properties": {
           "No": 9,
-          "NamaJalan": "Jalan Setapak 2"
+          "name": "Jalan Setapak 2"
         },
         "geometry": {
           "coordinates": [
@@ -328,7 +328,7 @@
         "type": "Feature",
         "properties": {
           "No": 10,
-          "NamaJalan": "Jalan Setapak 3"
+          "name": "Jalan Setapak 3"
         },
         "geometry": {
           "coordinates": [
@@ -368,7 +368,7 @@
         "type": "Feature",
         "properties": {
           "No": 11,
-          "NamaJalan": "Rancamanyar"
+          "name": "Rancamanyar"
         },
         "geometry": {
           "coordinates": [
@@ -424,7 +424,7 @@
         "type": "Feature",
         "properties": {
           "No": 12,
-          "NamaJalan": "Jalan setapak 4"
+          "name": "Jalan setapak 4"
         },
         "geometry": {
           "coordinates": [
@@ -464,7 +464,7 @@
         "type": "Feature",
         "properties": {
           "No": 13,
-          "NamaJalan": "Jalan Setapak 5"
+          "name": "Jalan Setapak 5"
         },
         "geometry": {
           "coordinates": [
@@ -504,7 +504,7 @@
         "type": "Feature",
         "properties": {
           "No": 14,
-          "NamaJalan": "Jalan Setapak 6"
+          "name": "Jalan Setapak 6"
         },
         "geometry": {
           "coordinates": [
@@ -536,7 +536,7 @@
         "type": "Feature",
         "properties": {
           "No": 15,
-          "NamaJalan": "Jalan Setapak 7"
+          "name": "Jalan Setapak 7"
         },
         "geometry": {
           "coordinates": [
@@ -564,7 +564,7 @@
         "type": "Feature",
         "properties": {
           "No": 18,
-          "NamaJalan": "Jalan Setapak 8"
+          "name": "Jalan Setapak 8"
         },
         "geometry": {
           "coordinates": [
@@ -592,7 +592,7 @@
         "type": "Feature",
         "properties": {
           "No": 17,
-          "NamaJalan": "Jalan Setapak 9"
+          "name": "Jalan Setapak 9"
         },
         "geometry": {
           "coordinates": [
@@ -620,7 +620,7 @@
         "type": "Feature",
         "properties": {
           "No": 18,
-          "NamaJalan": "Jalan Setapak 10"
+          "name": "Jalan Setapak 10"
         },
         "geometry": {
           "coordinates": [
@@ -652,7 +652,7 @@
         "type": "Feature",
         "properties": {
           "No": 19,
-          "NamaJalan": "Jalan Setapak 11"
+          "name": "Jalan Setapak 11"
         },
         "geometry": {
           "coordinates": [
@@ -692,7 +692,7 @@
         "type": "Feature",
         "properties": {
           "No": 20,
-          "NamaJalan": "Jalan Setapak 12"
+          "name": "Jalan Setapak 12"
         },
         "geometry": {
           "coordinates": [
@@ -732,7 +732,7 @@
         "type": "Feature",
         "properties": {
           "No": 21,
-          "NamaJalan": "Jalan Setapak 13"
+          "name": "Jalan Setapak 13"
         },
         "geometry": {
           "coordinates": [
@@ -768,7 +768,7 @@
         "type": "Feature",
         "properties": {
           "No": 22,
-          "NamaJalan": "Jalan Setapak 14"
+          "name": "Jalan Setapak 14"
         },
         "geometry": {
           "coordinates": [
@@ -812,7 +812,7 @@
         "type": "Feature",
         "properties": {
           "No": 23,
-          "NamaJalan": "Jalan Setapak 15"
+          "name": "Jalan Setapak 15"
         },
         "geometry": {
           "coordinates": [
@@ -860,7 +860,7 @@
         "type": "Feature",
         "properties": {
           "No": 24,
-          "NamaJalan": "Jalan Setapak 16"
+          "name": "Jalan Setapak 16"
         },
         "geometry": {
           "coordinates": [
@@ -896,7 +896,7 @@
         "type": "Feature",
         "properties": {
           "No": 35,
-          "NamaJalan": "Jalan Setapak 17"
+          "name": "Jalan Setapak 17"
         },
         "geometry": {
           "coordinates": [
@@ -940,7 +940,7 @@
         "type": "Feature",
         "properties": {
           "No": 26,
-          "NamaJalan": "Jalan Setapak 18"
+          "name": "Jalan Setapak 18"
         },
         "geometry": {
           "coordinates": [
@@ -976,7 +976,7 @@
         "type": "Feature",
         "properties": {
           "No": 27,
-          "NamaJalan": "Jalan Setapak 19"
+          "name": "Jalan Setapak 19"
         },
         "geometry": {
           "coordinates": [
@@ -1008,7 +1008,7 @@
         "type": "Feature",
         "properties": {
           "No": 28,
-          "NamaJalan": "Jalan Setapak 20"
+          "name": "Jalan Setapak 20"
         },
         "geometry": {
           "coordinates": [
@@ -1048,7 +1048,7 @@
         "type": "Feature",
         "properties": {
           "No": 29,
-          "NamaJalan": "Jalan Setapak 21"
+          "name": "Jalan Setapak 21"
         },
         "geometry": {
           "coordinates": [
@@ -1076,7 +1076,7 @@
         "type": "Feature",
         "properties": {
           "No": 30,
-          "NamaJalan": "Jalan Setapak 22"
+          "name": "Jalan Setapak 22"
         },
         "geometry": {
           "coordinates": [
@@ -1108,7 +1108,7 @@
         "type": "Feature",
         "properties": {
           "No": 31,
-          "NamaJalan": "Jalan Setapak 23"
+          "name": "Jalan Setapak 23"
         },
         "geometry": {
           "coordinates": [
@@ -1128,7 +1128,7 @@
         "type": "Feature",
         "properties": {
           "No": 32,
-          "NamaJalan": "Jalan Setapak 24"
+          "name": "Jalan Setapak 24"
         },
         "geometry": {
           "coordinates": [
@@ -1160,7 +1160,7 @@
         "type": "Feature",
         "properties": {
           "No": 33,
-          "NamaJalan": "Jalan Setapak 25"
+          "name": "Jalan Setapak 25"
         },
         "geometry": {
           "coordinates": [
@@ -1196,7 +1196,7 @@
         "type": "Feature",
         "properties": {
           "No": 34,
-          "NamaJalan": "Jalan Setapak 26"
+          "name": "Jalan Setapak 26"
         },
         "geometry": {
           "coordinates": [
@@ -1224,7 +1224,7 @@
         "type": "Feature",
         "properties": {
           "No": 35,
-          "NamaJalan": "Jalan Setapak 27"
+          "name": "Jalan Setapak 27"
         },
         "geometry": {
           "coordinates": [
@@ -1252,7 +1252,7 @@
         "type": "Feature",
         "properties": {
           "No": 36,
-          "NamaJalan": "Jalan Setapak 28"
+          "name": "Jalan Setapak 28"
         },
         "geometry": {
           "coordinates": [
@@ -1288,7 +1288,7 @@
         "type": "Feature",
         "properties": {
           "No": 37,
-          "NamaJalan": "Jalan Setapak 29"
+          "name": "Jalan Setapak 29"
         },
         "geometry": {
           "coordinates": [
@@ -1320,7 +1320,7 @@
         "type": "Feature",
         "properties": {
           "No": 38,
-          "NamaJalan": "Jalan Setapak 30"
+          "name": "Jalan Setapak 30"
         },
         "geometry": {
           "coordinates": [
@@ -1360,7 +1360,7 @@
         "type": "Feature",
         "properties": {
           "No": 39,
-          "NamaJalan": "Jalan Setapak 31"
+          "name": "Jalan Setapak 31"
         },
         "geometry": {
           "coordinates": [
@@ -1392,7 +1392,7 @@
         "type": "Feature",
         "properties": {
           "No": 40,
-          "NamaJalan": "Jalan Setapak 32"
+          "name": "Jalan Setapak 32"
         },
         "geometry": {
           "coordinates": [
@@ -1436,7 +1436,7 @@
         "type": "Feature",
         "properties": {
           "No": 41,
-          "NamaJalan": "Jalan Setapak 33"
+          "name": "Jalan Setapak 33"
         },
         "geometry": {
           "coordinates": [
@@ -1480,7 +1480,7 @@
         "type": "Feature",
         "properties": {
           "No": 42,
-          "NamaJalan": "Jalan Setapak 34"
+          "name": "Jalan Setapak 34"
         },
         "geometry": {
           "coordinates": [
@@ -1512,7 +1512,7 @@
         "type": "Feature",
         "properties": {
           "No": 43,
-          "NamaJalan": "Jalan Setapak 35"
+          "name": "Jalan Setapak 35"
         },
         "geometry": {
           "coordinates": [
@@ -1548,7 +1548,7 @@
         "type": "Feature",
         "properties": {
           "No": 44,
-          "NamaJalan": "Jalan Setapak 36"
+          "name": "Jalan Setapak 36"
         },
         "geometry": {
           "coordinates": [
@@ -1584,7 +1584,7 @@
         "type": "Feature",
         "properties": {
           "No": 45,
-          "NamaJalan": "Jalan Setapak 37"
+          "name": "Jalan Setapak 37"
         },
         "geometry": {
           "coordinates": [
@@ -1616,7 +1616,7 @@
         "type": "Feature",
         "properties": {
           "No": 46,
-          "NamaJalan": "Jalan Setapak 38"
+          "name": "Jalan Setapak 38"
         },
         "geometry": {
           "coordinates": [
@@ -1648,7 +1648,7 @@
         "type": "Feature",
         "properties": {
           "No": 47,
-          "NamaJalan": "Jalan Setapak 39"
+          "name": "Jalan Setapak 39"
         },
         "geometry": {
           "coordinates": [
@@ -1684,7 +1684,7 @@
         "type": "Feature",
         "properties": {
           "No": 48,
-          "NamaJalan": "Jalan Setapak 40"
+          "name": "Jalan Setapak 40"
         },
         "geometry": {
           "coordinates": [
@@ -1712,7 +1712,7 @@
         "type": "Feature",
         "properties": {
           "No": 49,
-          "NamaJalan": "Jalan Setapak 41"
+          "name": "Jalan Setapak 41"
         },
         "geometry": {
           "coordinates": [
@@ -1740,7 +1740,7 @@
         "type": "Feature",
         "properties": {
           "No": 50,
-          "NamaJalan": "Jalan Setapak 42"
+          "name": "Jalan Setapak 42"
         },
         "geometry": {
           "coordinates": [
@@ -1772,7 +1772,7 @@
         "type": "Feature",
         "properties": {
           "No": 51,
-          "NamaJalan": "Jalan Setapak 43"
+          "name": "Jalan Setapak 43"
         },
         "geometry": {
           "coordinates": [
@@ -1808,7 +1808,7 @@
         "type": "Feature",
         "properties": {
           "No": 52,
-          "NamaJalan": "Jalan Setapak 44"
+          "name": "Jalan Setapak 44"
         },
         "geometry": {
           "coordinates": [
@@ -1844,7 +1844,7 @@
         "type": "Feature",
         "properties": {
           "No": 53,
-          "NamaJalan": "Jalan Setapak 45"
+          "": "Jalan Setapak 45"
         },
         "geometry": {
           "coordinates": [

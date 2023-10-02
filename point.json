@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "no": 1,
-        "nama": "Rumah Megah"
+        "name": "Rumah Megah"
       },
       "geometry": {
         "coordinates": [
@@ -19,7 +19,7 @@
       "type": "Feature",
       "properties": {
         "no": 2,
-        "nama": "Komp. Graha Rancamanyar"
+        "name": "Komp. Graha Rancamanyar"
       },
       "geometry": {
         "coordinates": [
@@ -33,7 +33,7 @@
       "type": "Feature",
       "properties": {
         "no": 3,
-        "nama": "Kantor Desa Rancamanyar"
+        "name": "Kantor Desa Rancamanyar"
       },
       "geometry": {
         "coordinates": [
@@ -47,7 +47,7 @@
       "type": "Feature",
       "properties": {
         "no": 4,
-        "nama": "SDN Ranca panjang"
+        "name": "SDN Ranca panjang"
       },
       "geometry": {
         "coordinates": [
@@ -61,7 +61,7 @@
       "type": "Feature",
       "properties": {
         "no": 5,
-        "nama": "SMPN 3 Baleenda"
+        "name": "SMPN 3 Baleenda"
       },
       "geometry": {
         "coordinates": [
@@ -75,7 +75,7 @@
       "type": "Feature",
       "properties": {
         "no": 6,
-        "nama": "Pom Bensin Rancamanyar"
+        "name": "Pom Bensin Rancamanyar"
       },
       "geometry": {
         "coordinates": [
@@ -89,7 +89,7 @@
       "type": "Feature",
       "properties": {
         "no": 7,
-        "nama": "Masjid Graha"
+        "name": "Masjid Graha"
       },
       "geometry": {
         "coordinates": [
@@ -103,7 +103,7 @@
       "type": "Feature",
       "properties": {
         "no": 8,
-        "nama": "Puskesmas Rancamanyar"
+        "name": "Puskesmas Rancamanyar"
       },
       "geometry": {
         "coordinates": [
@@ -117,7 +117,7 @@
       "type": "Feature",
       "properties": {
         "no": 9,
-        "nama": "Pasar Rancamanyar"
+        "name": "Pasar Rancamanyar"
       },
       "geometry": {
         "coordinates": [
@@ -131,7 +131,7 @@
       "type": "Feature",
       "properties": {
         "no": 10,
-        "nama": "Ruby Regency"
+        "name": "Ruby Regency"
       },
       "geometry": {
         "coordinates": [
@@ -145,7 +145,7 @@
       "type": "Feature",
       "properties": {
         "no": 11,
-        "nama": "Rancamanyar Regency"
+        "name": "Rancamanyar Regency"
       },
       "geometry": {
         "coordinates": [
@@ -159,7 +159,7 @@
       "type": "Feature",
       "properties": {
         "no": 12,
-        "nama": "Cluster Rancamanyar"
+        "name": "Cluster Rancamanyar"
       },
       "geometry": {
         "coordinates": [
@@ -173,7 +173,7 @@
       "type": "Feature",
       "properties": {
         "no": 13,
-        "nama": "Rancamanyar Regency 2"
+        "name": "Rancamanyar Regency 2"
       },
       "geometry": {
         "coordinates": [
@@ -187,7 +187,7 @@
       "type": "Feature",
       "properties": {
         "no": 14,
-        "nama": "Pasar Segar Rancamanyar"
+        "name": "Pasar Segar Rancamanyar"
       },
       "geometry": {
         "coordinates": [
@@ -201,7 +201,7 @@
       "type": "Feature",
       "properties": {
         "no": 15,
-        "nama": "Indomaret Rancamanyar"
+        "name": "Indomaret Rancamanyar"
       },
       "geometry": {
         "coordinates": [
@@ -215,7 +215,7 @@
       "type": "Feature",
       "properties": {
         "no": 16,
-        "nama": "SDN Citarum"
+        "name": "SDN Citarum"
       },
       "geometry": {
         "coordinates": [
@@ -229,7 +229,7 @@
       "type": "Feature",
       "properties": {
         "no": 17,
-        "nama": "Lapangan terbang lanud sulaiman"
+        "name": "Lapangan terbang lanud sulaiman"
       },
       "geometry": {
         "coordinates": [
@@ -243,7 +243,7 @@
       "type": "Feature",
       "properties": {
         "no": 18,
-        "nama": "RS Lanud Sulaiman"
+        "name": "RS Lanud Sulaiman"
       },
       "geometry": {
         "coordinates": [
@@ -257,7 +257,7 @@
       "type": "Feature",
       "properties": {
         "no": 19,
-        "nama": "Lapang Golf"
+        "name": "Lapang Golf"
       },
       "geometry": {
         "coordinates": [
@@ -271,7 +271,7 @@
       "type": "Feature",
       "properties": {
         "no": 20,
-        "nama": "Kolam Big"
+        "name": "Kolam Big"
       },
       "geometry": {
         "coordinates": [
@@ -285,7 +285,7 @@
       "type": "Feature",
       "properties": {
         "no": 21,
-        "nama": "SMPN 1 Margahayu"
+        "name": "SMPN 1 Margahayu"
       },
       "geometry": {
         "coordinates": [
@@ -299,7 +299,7 @@
       "type": "Feature",
       "properties": {
         "no": 22,
-        "nama": "SMAN 1 Margahayu"
+        "name": "SMAN 1 Margahayu"
       },
       "geometry": {
         "coordinates": [
@@ -313,7 +313,7 @@
       "type": "Feature",
       "properties": {
         "no": 23,
-        "nama": "SD Mathlaul Anwar"
+        "name": "SD Mathlaul Anwar"
       },
       "geometry": {
         "coordinates": [
@@ -327,7 +327,7 @@
       "type": "Feature",
       "properties": {
         "no": 24,
-        "nama": "SMA Marhas"
+        "name": "SMA Marhas"
       },
       "geometry": {
         "coordinates": [
@@ -341,7 +341,7 @@
       "type": "Feature",
       "properties": {
         "no": 25,
-        "nama": "SD Marhas"
+        "name": "SD Marhas"
       },
       "geometry": {
         "coordinates": [
@@ -355,7 +355,7 @@
       "type": "Feature",
       "properties": {
         "no": 26,
-        "nama": "SD Daarul Qalam"
+        "name": "SD Daarul Qalam"
       },
       "geometry": {
         "coordinates": [
@@ -369,7 +369,7 @@
       "type": "Feature",
       "properties": {
         "no": 27,
-        "nama": "SDN lupa namanya"
+        "name": "SDN lupa namanya"
       },
       "geometry": {
         "coordinates": [
@@ -383,7 +383,7 @@
       "type": "Feature",
       "properties": {
         "no": 28,
-        "nama": "Cisago"
+        "name": "Cisago"
       },
       "geometry": {
         "coordinates": [
@@ -397,7 +397,7 @@
       "type": "Feature",
       "properties": {
         "no": 29,
-        "nama": "Lapang tennis"
+        "name": "Lapang tennis"
       },
       "geometry": {
         "coordinates": [
@@ -411,7 +411,7 @@
       "type": "Feature",
       "properties": {
         "no": 30,
-        "nama": "SDN Sayuran"
+        "name": "SDN Sayuran"
       },
       "geometry": {
         "coordinates": [
@@ -425,7 +425,7 @@
       "type": "Feature",
       "properties": {
         "no": 31,
-        "nama": "Cangkuang"
+        "name": "Cangkuang"
       },
       "geometry": {
         "coordinates": [
@@ -439,7 +439,7 @@
       "type": "Feature",
       "properties": {
         "no": 32,
-        "nama": "SDN Cangkuang 6"
+        "name": "SDN Cangkuang 6"
       },
       "geometry": {
         "coordinates": [
@@ -453,7 +453,7 @@
       "type": "Feature",
       "properties": {
         "no": 33,
-        "nama": "SDK Kalam Kudus"
+        "name": "SDK Kalam Kudus"
       },
       "geometry": {
         "coordinates": [
@@ -467,7 +467,7 @@
       "type": "Feature",
       "properties": {
         "no": 34,
-        "nama": "SMK Assalaam"
+        "name": "SMK Assalaam"
       },
       "geometry": {
         "coordinates": [
@@ -481,7 +481,7 @@
       "type": "Feature",
       "properties": {
         "no": 35,
-        "nama": "SMPN 38 Bandung"
+        "name": "SMPN 38 Bandung"
       },
       "geometry": {
         "coordinates": [
@@ -495,7 +495,7 @@
       "type": "Feature",
       "properties": {
         "no": 36,
-        "nama": "Parahita"
+        "name": "Parahita"
       },
       "geometry": {
         "coordinates": [
@@ -509,7 +509,7 @@
       "type": "Feature",
       "properties": {
         "no": 37,
-        "nama": "Ponpes Sirna Miskin"
+        "name": "Ponpes Sirna Miskin"
       },
       "geometry": {
         "coordinates": [
@@ -523,7 +523,7 @@
       "type": "Feature",
       "properties": {
         "no": 38,
-        "nama": "Santosa Hospital"
+        "name": "Santosa Hospital"
       },
       "geometry": {
         "coordinates": [
@@ -537,7 +537,7 @@
       "type": "Feature",
       "properties": {
         "no": 39,
-        "nama": "Miko mall"
+        "name": "Miko mall"
       },
       "geometry": {
         "coordinates": [
@@ -551,7 +551,7 @@
       "type": "Feature",
       "properties": {
         "no": 40,
-        "nama": "Yogya"
+        "name": "Yogya"
       },
       "geometry": {
         "coordinates": [
@@ -565,7 +565,7 @@
       "type": "Feature",
       "properties": {
         "no": 41,
-        "nama": "SDN Margahayu"
+        "name": "SDN Margahayu"
       },
       "geometry": {
         "coordinates": [
@@ -579,7 +579,7 @@
       "type": "Feature",
       "properties": {
         "no": 42,
-        "nama": "Pasar Sayati"
+        "name": "Pasar Sayati"
       },
       "geometry": {
         "coordinates": [
@@ -593,7 +593,7 @@
       "type": "Feature",
       "properties": {
         "no": 43,
-        "nama": "Klinik Kasih Jaya"
+        "name": "Klinik Kasih Jaya"
       },
       "geometry": {
         "coordinates": [
@@ -607,7 +607,7 @@
       "type": "Feature",
       "properties": {
         "no": 44,
-        "nama": "Pasar Segar TKI"
+        "name": "Pasar Segar TKI"
       },
       "geometry": {
         "coordinates": [
@@ -621,7 +621,7 @@
       "type": "Feature",
       "properties": {
         "no": 45,
-        "nama": "Talenta School"
+        "name": "Talenta School"
       },
       "geometry": {
         "coordinates": [
@@ -635,7 +635,7 @@
       "type": "Feature",
       "properties": {
         "no": 46,
-        "nama": "SMAN 1 Margaasih"
+        "name": "SMAN 1 Margaasih"
       },
       "geometry": {
         "coordinates": [
@@ -649,7 +649,7 @@
       "type": "Feature",
       "properties": {
         "no": 47,
-        "nama": "RS Unggul Karsa Medika"
+        "name": "RS Unggul Karsa Medika"
       },
       "geometry": {
         "coordinates": [
@@ -663,7 +663,7 @@
       "type": "Feature",
       "properties": {
         "no": 48,
-        "nama": "SDN Lupa nama lagi"
+        "name": "SDN Lupa nama lagi"
       },
       "geometry": {
         "coordinates": [
@@ -677,7 +677,7 @@
       "type": "Feature",
       "properties": {
         "no": 49,
-        "nama": "SD Lupa Nama juga"
+        "name": "SD Lupa Nama juga"
       },
       "geometry": {
         "coordinates": [
@@ -691,7 +691,7 @@
       "type": "Feature",
       "properties": {
         "no": 50,
-        "nama": "Lupa juga namanya"
+        "name": "Lupa juga namanya"
       },
       "geometry": {
         "coordinates": [
@@ -705,7 +705,7 @@
       "type": "Feature",
       "properties": {
         "no": 51,
-        "nama": "Lupa apa ini"
+        "name": "Lupa apa ini"
       },
       "geometry": {
         "coordinates": [
