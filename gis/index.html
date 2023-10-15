@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPEN LAYER</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/openlayers@4.6.5/dist/ol.css" />
+
+    <!-- Additional CSS -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div>
+        <h1 class="judul">Open Layer</h1>
+        <h2>Nama : Megah Juliardi Sondara Wicaksana</h2>
+        <h2>NPM : 1214066</h2>
+        <h2>Kelas : D4TI 3C</h2>
+        <br>
+        <div class="openlayer">
+            <a href="../index.html">Google Cloud JSON</a>
+        </div>
+
+        <div id="map" style="height: 500px;"></div>
+
+
+
+        <div class="point-table">
+            <h1>Data-Data (Polyline, Point, Polygon) </h1>
+            <table id="pointTable" border="1">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Name</th>
+                        <th>Coordinates</th>
+                        <th>Type</th>
+                    </tr>
+                </thead>
+                <tbody id="geojson-table"></tbody>
+            </table>
+        </div>
+        
+
+        <!-- Add a table to display GeoJSON data -->
+        <!-- <table border="1">
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>Desa</th>
+                <th>Coordinates</th>
+                <th>Type</th>
+            </tr>
+            <tbody id="geojson-table"> -->
+
+                <!-- Rows for GeoJSON data will be added here -->
+            <!-- </tbody>
+        </table> -->
+        <!-- Include OpenLayers via CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/openlayers@4.6.5/dist/ol.js"></script>
+
+        <!-- Your JavaScript code here -->
+        <script type="module" src="./readjson.js"></script>
+        <script src="./script.js"></script>
+
+    </div>
+</body>
+</html>

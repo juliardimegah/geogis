@@ -1,19 +1,25 @@
-const button = document.getElementById('ambilData');
-const hasil = document.getElementById('hasil');
+import { get } from "https://jscroot.github.io/api/croot.js";
+import {setInner,addChild } from "https://jscroot.github.io/element/croot.js";
 
-// Fungsi untuk mengambil data dari API
-async function ambilDataDariAPI() {
-    try {
-        const response = await fetch('https://us-central1-gismegah.cloudfunctions.net/gism');
-        const data = await response.text(); // Menggunakan response.text() untuk mengambil teks respons
+export let URLGeoJson = "https://us-central1-core-advice-401502.cloudfunctions.net/function-1";
+export let tableTag="tr";
+export let tableRowClass="content is-small";
+export let tableTemplate=`
+<td>#TYPE#</td>
+<td>#NAME#</td>
+<td>#KOORDINAT#</td>
+`
 
-        // Tampilkan data di dalam elemen hasil
-        hasil.innerHTML = `<p>Data dari API: ${data}</p>`;
-    } catch (error) {
-        console.error('Terjadi kesalahan:', error);
-        hasil.innerHTML = '<p>Terjadi kesalahan saat mengambil data dari API.</p>';
-    }
+export function responseData(results){
+    console.log(results);
+    results.forEach(isiRow);
 }
 
-// Menambahkan event listener pada tombol untuk mengambil data dari API
-button.addEventListener('click', ambilDataDariAPI);
+export function isiRow(value) {
+    let content = tableTemplate
+        .replace("#TYPE#", value.geometry.type)
+        .replace("#NAME#", value.properties.name)
+        .replace("#KOORDINAT#", JSON.stringify(value.geometry.coordinates));
+    console.log(content);
+    addChild("lokasi", tableTag, tableRowClass, content);
+}

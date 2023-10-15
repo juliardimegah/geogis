@@ -1,65 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OPEN LAYER</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/openlayers@4.6.5/dist/ol.css" />
-
-    <!-- Additional CSS -->
-    <link rel="stylesheet" href="styles.css" />
-</head>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <title>Tugas GIS</title>
+  </head>
 <body>
-    <div>
-        <h1 class="judul">Open Layer</h1>
-        <h2>Nama : Megah Juliardi Sondara Wicaksana</h2>
-        <h2>NPM : 1214066</h2>
-        <h2>Kelas : D4TI 3C</h2>
-        <br>
-        <button id="ambilData">Ambil Data dari API</button>
-        <div id="hasil"></div>
 
-        <div id="map" style="height: 500px;"></div>
+  <style>
+    .akbarlopenlayer{
+      padding: 10px;
+      margin: 10px;
+      border: 1px solid black;
+      border: transparent;
+      width: 200px;
+      background-color: black;
+      color: white;
+      border-radius: 30px;
+      text-align: center;
+    }
+    .akbaropenlayer:hover{
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid black;
+        border: transparent;
+        width: 200px;
+        background-color: gray;
+        color: white;
+        border-radius: 30px;
+        text-align: center;
+        box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
+    }
+    .akbaropenlayer a{
+      color: white;
+      text-decoration: none;
+    }
+  </style>
 
+  <div class="akbaropenlayer">
+    <a href="./gis/index.html">Open Layer</a>
+  </div>
 
+<table class="table">
+  <tbody id="lokasi">
+    <tr>
+      <th>Type</th>
+      <th>Nama</th>
+      <th>Kordinat</th>
+    </tr>
+  </tbody>
+</table>
 
-        <div class="point-table">
-            <h1>Data-Data (Polyline, Point, Polygon) </h1>
-            <table id="pointTable" border="1">
-                <thead>
-                    <tr>
-                        <th>No</th>
-                        <th>Name</th>
-                        <th>Coordinates</th>
-                        <th>Type</th>
-                    </tr>
-                </thead>
-                <tbody id="geojson-table"></tbody>
-            </table>
-        </div>
-        
+<script type="module" src="./get.js"></script>
 
-        <!-- Add a table to display GeoJSON data -->
-        <!-- <table border="1">
-            <tr>
-                <th>No</th>
-                <th>Name</th>
-                <th>Desa</th>
-                <th>Coordinates</th>
-                <th>Type</th>
-            </tr>
-            <tbody id="geojson-table"> -->
-
-                <!-- Rows for GeoJSON data will be added here -->
-            <!-- </tbody>
-        </table> -->
-        <!-- Include OpenLayers via CDN -->
-        <script src="https://cdn.jsdelivr.net/npm/openlayers@4.6.5/dist/ol.js"></script>
-
-        <!-- Your JavaScript code here -->
-        <script type="module" src="./readjson.js"></script>
-        <script src="./script.js"></script>
-
-    </div>
 </body>
 </html>
