@@ -137,6 +137,6 @@ function addGeoJSONToMapAndTable(geoJSONUrl, map, table) {
 }
 
 // Call the function for each GeoJSON URL
-addGeoJSONToMapAndTable("https://raw.githubusercontent.com/juliardimegah/geogis/main/poliline.json", map, document.querySelector('table'));
-addGeoJSONToMapAndTable("https://raw.githubusercontent.com/juliardimegah/geogis/main/poligon.json", map, document.querySelector('table'));
-addGeoJSONToMapAndTable("https://raw.githubusercontent.com/juliardimegah/geogis/main/point.json", map, document.querySelector('table'));
+addGeoJSONToMapAndTable("https://raw.githubusercontent.com/juliardimegah/geogis/main/gis/poliline.json", map, document.querySelector('table'));
+addGeoJSONToMapAndTable("https://raw.githubusercontent.com/juliardimegah/geogis/main/gis/poligon.json", map, document.querySelector('table'));
+addGeoJSONToMapAndTable("https://raw.githubusercontent.com/juliardimegah/geogis/main/gis/point.json", map, document.querySelector('table'));

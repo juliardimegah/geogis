@@ -1,7 +1,7 @@
 import { get } from "https://jscroot.github.io/api/croot.js";
 import {setInner,addChild } from "https://jscroot.github.io/element/croot.js";
 
-export let URLGeoJson = "https://us-central1-core-advice-401502.cloudfunctions.net/function-1";
+export let URLGeoJson = "https://us-central1-gismegah.cloudfunctions.net/functgomong";
 export let tableTag="tr";
 export let tableRowClass="content is-small";
 export let tableTemplate=`
@@ -23,3 +23,5 @@ export function isiRow(value) {
     console.log(content);
     addChild("lokasi", tableTag, tableRowClass, content);
 }
+
+
